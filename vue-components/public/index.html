@@ -21,7 +21,7 @@
     <header class="header">
       <img src="Img/Blog-det.svg" alt="" class="header_img" />
     </header>
-    <div id="app" class="details container">
+    <div class="details container">
         <div class="details_content">
             <p class="details_content-heading">
                 Создадим лучший макет перепланировки
@@ -53,11 +53,11 @@
                 В своей статье от 1994-го года журнал «Before & After» отследил фразу «Lorem ipsum ...» до философского трактата Цицерона О пределах добра и зла, написанного в 45 году до нашей эры на латинском языке. 
             </p>
         </div>     
-  <div>
-    <p class="tags_heading">Тэги</p>
-    <div class="tags"><article-filter></article-filter></div>
-  </div>
+        <div>
+          <p class="tags_heading">Тэги</p>
+          <div class="tags" id="app"></div>
         </div>
+      </div>
     </div>
     <footer class="footer container">
       <div class="footer_links">
@@ -89,12 +89,6 @@
         </ul>
       </div>
     </footer>
-
-
-    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
-    <script src="vue.js"></script>
-    <script>
-      new Vue({ el: "#app" });
-    </script>
+    <script src="/vue-components/src/main.js"></script>
   </body>
 </html>
