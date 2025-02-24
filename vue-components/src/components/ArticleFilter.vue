@@ -48,3 +48,27 @@
   };
   </script>
   
+  <style>
+  .tags-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 345px;
+    height: 200px;
+    gap: 10px;
+  }
+  .tags-container button {
+    height: 41px;
+    padding: 9px 30px;
+    border: none;
+    background-color: #F4F0EC;
+    color: #292F36;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .tags-container button.active {
+    background-color: #292F36;
+    color: #fff;
+  }
+</style>
